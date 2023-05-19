@@ -1,0 +1,230 @@
+.body {
+  font-family: 'Times New Roman', serif;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  background-color: aliceblue;
+ 
+}
+/* страница авторизации */
+
+input { 
+  padding: 10px;
+  margin: 10px 0;
+  border: 0;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 10px;
+  width: 30%;
+}
+button {
+  appearance:none;
+  -webkit-appearance:none;
+  
+  padding:10px;
+  border:none;
+  background-color:#7dacf3;
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:30%;
+  margin-top: 30px;
+}
+
+.form_content { 
+  margin-left: 150px;
+  padding-top: 200px;
+}
+
+.promo__image { 
+  position: relative;
+  top: -500px;
+  left: 830px;
+  width: 620px;
+  height: 780px;
+}
+
+/*главная страничка сайта */
+
+.page-header {
+  width: 1200px;
+  margin-bottom: 30px;
+  padding: 35px 90px;
+
+}
+.site-navigation-item {
+  display: inline-block;
+  margin-right: 150px;
+  
+
+}
+
+.site-navigation-item a {
+  font-size: 20 px;
+  line-height: 20px;
+  color: #363131;
+  
+  text-transform: uppercase;
+  text-decoration: none;
+}
+  
+.site-navigation-item a.active {
+  color: #4ea3dc;
+}
+
+.about h1 { 
+  font-size: 52px;
+  line-height: 63px;
+  font-style: bold;
+  margin-left: 60px;
+  margin-top: 100px;
+
+}
+
+.about p {
+  font-size: 23px;
+  width: 50%;
+  line-height: 30px;
+  margin-left: 60px;
+  
+
+}
+
+.about_image {
+width: 367;
+height: 407;
+
+
+}
+.news h2 {
+  font-size: 40px;
+  line-height: 66px;
+  text-align: center;
+
+}
+
+.news h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.news a { 
+  font-size: 18px;
+  line-height: 24px;
+  color: #49697e;
+
+}
+
+.photo { 
+  background-image: url(image/statue.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+ 
+
+}
+
+.photo p {
+
+  font-size: 52px;
+  line-height: 40px;
+  font-style: bold;
+  color:rgb(209, 211, 211);
+  padding-top: 250px;
+  padding-left: 400px;
+;
+
+}
+.main-footer {
+  font-size: 20 px;
+  line-height: 20px;
+  background-color: #212529;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+  
+.main-footer p {
+  font-size: 25px;
+  font-style: bold;
+  color:#d1d1d1;
+}
+.footer-navigation-item a { 
+  font-size: 20 px;
+  line-height: 20px;
+  color: #d1d1d1;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+/* Страница новостей */
+
+.description-main {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.prewie h1 {
+  color:#7dacf3;
+}
+
+.references a {
+  font-size: 25 px;
+  line-height: 20px;
+  color:#7dacf3;
+  text-transform: uppercase;
+  text-decoration: none; 
+}
+
+
+/* Путешествия */
+
+.feautered {
+  background-color: #3d3e3f;
+  color: #d1d1d1;
+  width: 735px;
+  height: 903px;
+}
+
+.topics a {
+  color: #d1d1d1;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.topics p {
+  font-style: light;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.trip {
+  background-image: url(image/mountain.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 735px;
+  height: 903px;
+}
+
+.trip a {
+  color: #d1d1d1;
+  font-style: bold;
+  font-size: 25px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.trip p {
+  font-style: light;
+  font-size: 12px;
+  line-height: 20px;
+  color:#d1d1d1;
+}
