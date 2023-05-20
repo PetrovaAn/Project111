@@ -2,6 +2,9 @@
 <html lang="ru">
 <head> 
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Новости</title>
 </head>
@@ -23,6 +26,7 @@
         </ul>
     </nav>
 </header>
+<hr>
 
 <main> 
     <section class="prewie">
@@ -42,7 +46,7 @@
              Неврологи подтвердили опасения родителей и довольно быстро определили конкретный диагноз — одну из легких форм СМА. 
              Как вспоминает моя мама, во время приема главврач открыл большую энциклопедию детских заболеваний, на развороте про СМА, и протянул ей, а сам вышел из кабинета. 
         </p> 
-        <strong> 
+        <strong class="description"> 
             В книге были проиллюстрированы крайне тяжелые случаи — а в тексте говорилось, что такие люди долго не живут и не могут даже сами глотать пищу. На тот момент моей маме было всего 19 лет. Как она, вчерашняя школьница, всё это вынесла, не представляю... 
         </strong>
         <p class="description">
@@ -55,17 +59,19 @@
         </p>
     </div>
     <div class="references">
-            <a href="main-page.html" class="exit"> Назад </a>
+         <a href="main-page.html" class="exit"> Назад </a> 
             <a href="news2.html" class="continue">Далее</a>
 
     </div>
+     
+    <hr> 
 
     <form name="comment" action="comment.php" method="post">
-        <p>
+        <p class=" comment-name">
           <label>Имя:</label>
           <input type="text" name="name" />
         </p>
-        <p>
+        <p class="comment_text">
           <label>Комментарий:</label>
           <br />
           <textarea name="text_comment" cols="30" rows="50"></textarea>
@@ -75,6 +81,7 @@
           <input type="submit" value="Отправить" />
         </p>
       </form>
+      
       <?php
     $con = mysqli_connect("localhost", "root", "", "DB");
     mysqli_set_charset($con, "utf8");
@@ -98,7 +105,7 @@
       
 </main>
 <footer class="main-footer"> 
-    <p class="footer-title"> Живи, люби, наслаждайся </p>
+   
     <ul class="footer-navigation"> 
         <li class="footer-navigation-item">
             <a href="#">Новости</a>
